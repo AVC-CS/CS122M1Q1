@@ -1,23 +1,23 @@
 
 
 def main():
-    number = []
-    evencnt = 0
+    result = []
 
-    for i in range(10):
-        number.append(int(input('Enter a number: ')))
+    # for i in range(10):
+    # number.append(int(input('Enter a number: ')))
+    numbers = list(map(int, (input().split())))
 
     """
     ########################################
     Code Your Program here
     ########################################
     """
-    print(evencnt)
+    print(result)
 
     ########################################
     # Do not delete the return statement
     ########################################
-    return evencnt
+    return result
 
 
 if __name__ == '__main__':
